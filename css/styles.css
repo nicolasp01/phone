@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+}
+
+#noticias {
+  border: 5px solid gray;
+  height: auto;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.main-title {
+  text-align: center;
+  letter-spacing: 0.2em;
+  font-size: 4em;
+}
+
+textarea {
+	height: 200px;
+	width: 300px;
+}
+
+.policial {
+	background: blue;
+	display: inline-block;
+}
+
+.deportes {
+  background: green;
+  display: inline-block;
+}
+
+

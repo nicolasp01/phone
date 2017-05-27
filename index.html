@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Intro al DOM</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <h1 class="main-title">Mis Noticias</h1>
+
+  <form action="" id="my-form">
+    <label>Título</label><br>
+    <input id="titulo" type="text" placeholder="Título"><br> 
+    <label>Cuerpo de la noticia</label><br>
+    <textarea id="cuerpo" name="" placeholder="Lo que quieras..."></textarea><br> 
+    <input id="miboton-agregar" type="button" value="Agregar noticia"><br><br>
+    <input id="miboton-mostrar" type="button" value="Mostrar noticia"><br>
+
+  </form>
+
+  <hr>
+
+  <div id="noticias">
+    <!-- Las noticias se van a ir agregando aca -->
+  </div>
+
+  <hr>
+
+  <!-- Cargamos Nuestro JavaScript -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
+
+
+<!-- 
+Incluir otros botones para poder ordenar por AZ ZA e ID y Diario
+Al renderizar la noticia en el DOM se Debera poder marcar leida y no volver a mostrarse (ocultar texto con checkbox)
+-->
+
