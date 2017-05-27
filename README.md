@@ -1,30 +1,13 @@
-﻿# Teléfono
+﻿# Phone
 
-Pequeña aplicacion que utiliza Vanilla JS para manipular objetos del DOM.
+# Intrucciones
 
-![Vanilla JS Logo](images/js.png)
+- Maquetar el teclado del Telefono y un display
+- Los botones deberan ser clickeables y mostrar lo clickeable en el display
+- Adicionalmente capturar el teclado para marcar y mostrar en el display
 
 
-## Instrucciones
 
-Para correr el pppprograma debemos:
-
-- Abrir `index.html` en un navegador web
-- Abrir la consola del navegador (Developer tools)
-
-### Cargar noticias
-
-1. Tipear `misNoticias.agregar()`, aregar un titulo y luego un parrafo
-
-2. Para agregar mas noticias repetimos el paso `1`.
-
-![Ejemplo de carga de noticias](images/cargar-noticias.png)
-
-### Mostrar noticias
-
-1. Tipear `misNoticias.mostrar()`
-
-![Ejemplo de muestra de noticias](images/mostrar-noticias.png)
 
 
 
